@@ -1,3 +1,5 @@
+[![npm scoped](https://img.shields.io/npm/v/@haloplatform/simple-sign-system.svg?style=for-the-badge)](https://www.npmjs.com/package/@haloplatform/simple-sign-system)
+
 # simple-sign-system
 This allows the signing of a transaction and data via a simple npm module. Also allows recovery of signed data. Requires web3 1.x.
 
