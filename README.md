@@ -14,7 +14,7 @@ Install:
 
 Import & Use:
 
-```javascript
+```
 const sss = require('@haloplatform/simple-sign-system);
 
 sss.signTx(tx, privateKey, web3).then((tx) => {
