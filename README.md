@@ -4,6 +4,31 @@ This allows the signing of a transaction and data via a simple npm module. Also 
 
 REQUIREMENT = Web3js 1.x. Does not work with Web3 0.x.x!!!
 
+## Usage
+
+Install:
+
+- npm `npm install @haloplatform/simple-sign-system`
+- yarn `yarn add @haloplatform/simple-sign-system`
+
+
+Import & Use:
+
+```javascript
+const sss = require('@haloplatform/simple-sign-system);
+
+sss.signTx(tx, privateKey, web3).then((tx) => {
+    console.log(tx.serialized);
+});
+
+sss.signAndSend(tx, privateKey, web3, true).then((result) => {
+    console.log(result.transactionHash);
+});
+```
+
+
+## Some Docs
+
 
 Available functions:
 
