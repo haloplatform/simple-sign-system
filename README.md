@@ -18,6 +18,7 @@ Import & Use:
 
 ```
 const sss = require('@haloplatform/simple-sign-system);
+const sss = new SimpleSignSystem();
 
 sss.signTx(tx, privateKey, web3).then((tx) => {
     console.log(tx.serialized);
