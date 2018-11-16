@@ -1,0 +1,13 @@
+{
+  "name": "@haloplatform/simple-sign-system",
+  "version": "1.0.0",
+  "description": "This allows the signing of a transaction and data via a simple npm module. Also allows recovery of signed data. Requires web3 1.x.",
+  "main": "index.js",
+  "repository": "https://github.com/haloplatform/simple-sign-system.git",
+  "author": "shadowcodex <jsduncan98@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ethereumjs-util": "^5.2.0",
+    "web3": "^1.0.0-beta.36"
+  }
+}
