@@ -40,7 +40,6 @@ class SimpleSignSystem {
     // stand alone, sign data with a private key
     async signData(privateKey, data) {
         const hash = createKeccakHash('keccak256').update(data).digest()
-        console.log(new Buffer(privateKey));
         
         const sig = EllipticCurve.sign(hash, ethUtil.toBuffer("0x" + privateKey));        
         return [...sig.signature, sig.recovery + 27];
