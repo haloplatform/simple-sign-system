@@ -1,6 +1,6 @@
 const EthTx = require('./eth-tx');
 const EllipticCurve = require('secp256k1/elliptic');
-const createKeccakHash = require('Keccak/js');
+const createKeccakHash = require('keccak/js');
 const ethUtil = require('ethereumjs-util')
 const { Buffer } = require('safe-buffer');
 class SimpleSignSystem {
